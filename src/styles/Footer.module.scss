@@ -1,0 +1,21 @@
+.footer-section{
+        background-color: rgba(0, 0, 255, 0);
+        margin: 10% 0px 0px;
+        padding: 20px 50px 50px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 10px solid #0B0B40;
+        box-shadow: inset 0px 0px 10px 10px #0B0B40;
+        div{
+                width: 25%;
+                img{
+                        width: 80%;
+                }
+        }
+}
+
+.contact-newsletter-container{
+        display: flex;
+}

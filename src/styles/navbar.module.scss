@@ -1,0 +1,28 @@
+.navbar-section {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  div {
+    width: 50%;
+  }
+}
+
+.navbar-logo {
+  img {
+    width: 25%;
+  }
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+    align-items: center;
+  justify-content: end;
+  li{
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,63 @@
+.event-page-top-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+    }
+    height: 100vh;
+}
+
+.event-page-second-container, .event-page-third-container, .event-page-fourth-container{
+    position: relative;
+    margin-top: 10%;
+}
+
+.event-page-top-backheading{
+    margin: 60px 100px;
+    padding: 0px;
+    font-size: 300px;
+    color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.event-page-top-left{
+    color: white;
+    h1{
+        font-size: 65px;
+        margin-bottom: 50px;
+        z-index: 1;
+    }
+    button{
+        z-index: 1;
+        width: 30%;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        border: 5px solid white;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-bottom: 200px;
+    }
+}
+
+.Eventcards-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5%;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
