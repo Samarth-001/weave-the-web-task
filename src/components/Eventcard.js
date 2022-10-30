@@ -11,7 +11,7 @@ function Eventcard() {
         />
         {/* eventcard */}
       </div>
-      <button className={styles["Event-card-button"]}>Register now</button>
+      <button className={styles["Event-card-button"]}><a style={{textDecoration:"none"}} href="https://www.google.com/">Register now</a></button>
     </div>
   );
 }

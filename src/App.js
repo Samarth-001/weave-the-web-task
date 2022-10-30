@@ -13,8 +13,8 @@ function App() {
         <div style={{margin:"0px 50px"}}>
           <Eventpage />
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
